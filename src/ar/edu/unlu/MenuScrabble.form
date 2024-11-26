@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ar.edu.unlu.MenuScrabble">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="735" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="692f3" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="&lt;html&gt;Scrabble es un juego de palabras clásico y divertido. &quot; +                 &quot;El objetivo del juego es obtener la mayor cantidad de puntos al formar palabras en un tablero que se conecten a las palabras creadas por los otros jugadores.\n&quot; +                 &quot;Para jugar Scrabble, necesitas al menos otro jugador. Al jugar el juego, crearás palabras, acumularás puntos, desafiarás a tus oponentes e incluso intercambiarás azulejos (si los tuyos no te sirven). &quot; +                 &quot;Al mismo tiempo, un anotador calculará los puntos de cada jugador para determinar quién ganará al final del juego.&lt;/html&gt;"/>
+        </properties>
+      </component>
+      <component id="56ba4" class="javax.swing.JButton" binding="crearServidorButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="200" height="40"/>
+          <text value="Crear Servidor"/>
+        </properties>
+      </component>
+      <vspacer id="c89a7">
+        <constraints/>
+      </vspacer>
+      <component id="62290" class="javax.swing.JButton" binding="unirseServidorButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="200" height="40"/>
+          <text value="Unirse Servidor"/>
+        </properties>
+      </component>
+      <vspacer id="48f1a">
+        <constraints/>
+      </vspacer>
+      <component id="5d27a" class="javax.swing.JButton" binding="continuarPartidaButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="200" height="40"/>
+          <text value="Continuar Partida"/>
+        </properties>
+      </component>
+      <vspacer id="c3472">
+        <constraints/>
+      </vspacer>
+      <component id="8ddbd" class="javax.swing.JButton" binding="reglasButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="200" height="40"/>
+          <text value="Reglas"/>
+        </properties>
+      </component>
+      <vspacer id="5a917">
+        <constraints/>
+      </vspacer>
+      <component id="f1e20" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="200" height="40"/>
+          <text value="Salir"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
